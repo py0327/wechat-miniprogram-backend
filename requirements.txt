@@ -1,9 +1,6 @@
-
-fastapi==0.89.1
-uvicorn==0.20.0
-pydantic==1.10.4
-motor==3.1.1
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-python-dotenv==1.0.0
-cloudinary==1.33.0    
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pymongo[srv]>=4.0.0
+python-multipart>=0.0.5
+cloudinary>=1.36.0
+python-dotenv>=0.21.0
